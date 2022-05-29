@@ -1,0 +1,80 @@
+#navbar{
+    display:flex;
+    width:90%;
+    height:100px;
+    color:white;
+    background-color: black;
+     margin: auto;
+     border-radius: 10px;
+     align-items: center;
+     justify-content: space-around;
+
+       }
+       #navbar1{
+           width:50%;
+           padding: 20px;
+       }
+       #navbar2{
+           width:50%;
+           display:flex;
+           justify-content: space-around;
+           align-items: center;
+       }
+   a{
+    text-decoration: none;
+    color:white;
+    margin: auto;
+     }
+     #after_signup a{
+        text-decoration: none;
+        color:black;
+     }
+  
+
+     #signup-form-div{
+        
+         width:30%;
+         margin: auto;
+         margin-top: 50px;
+
+     }
+     #form{
+         width:100%;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         
+     }
+     input{
+         margin-top:10px ;
+         height:30px;
+         
+     }
+     #submit{
+         margin: auto;
+         margin-top: 10px;
+         width:90px;
+         height:40px;
+         font-size: 20px;
+         background-color: aqua;
+         color:black;
+         border-style: none;
+         border-radius: 5px;
+     }
+     #toLogIn{
+         margin: auto;
+         text-align: center;
+         color:blue;
+        margin-bottom: -30px ;
+        margin-top: 80px;
+     }
+     #after-signup{
+         height:40px;
+          width:20%;
+          margin:auto ;
+          background-color: black;
+          text-align: center;
+          font-size: 30px;
+          border-radius: 10px;
+     }
+
