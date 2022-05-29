@@ -125,17 +125,3 @@ let moviesData = [
     });
   }
   displayData(movies);
-  
-  const sortLH=() => {
-    movies.sort((a, b) => {
-      return a.IMDBrating - b.IMDBrating;
-    });
-    displayData(movies);
-  };
-  
- const sortHL=() => {
-    movies.sort((a, b) => {
-      return b.IMDBrating - a.IMDBrating;
-    });
-    displayData(movies);
-  };
